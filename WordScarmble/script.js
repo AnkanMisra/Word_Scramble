@@ -4,6 +4,10 @@ timeText = document.querySelector(".time b"),
 inputField = document.querySelector("input"),
 refreshBtn = document.querySelector(".refresh-word"),
 checkBtn = document.querySelector(".check-word");
+const resultModal = document.getElementById("resultModal");
+const resultMessage = document.getElementById("resultMessage");
+
+
 
 let correctWord, timer;
 
@@ -18,6 +22,15 @@ const initTimer = maxTime => {
         initGame();
     }, 1000);
 }
+
+const openModal = (message) => {
+    resultMessage.innerText = message;
+    resultModal.style.display = "flex";
+  }
+  
+  const closeModal = () => {
+    resultModal.style.display = "none";
+  }
 
 const initGame = () => {
     initTimer(30);
@@ -37,11 +50,11 @@ initGame();
 
 const checkWord = () => {
     let userWord = inputField.value.toLowerCase();
-    if(!userWord) return alert("Please enter the word to check!");
-    if(userWord !== correctWord) return alert(`Oops! ${userWord} is not a correct word`);
-    alert(`Congrats! ${correctWord.toUpperCase()} is the correct word`);
+    if (!userWord) return openModal("Please enter the word to check!");
+    if (userWord !== correctWord) return openModal(`Oops! ${userWord} is not the correct word`);
+    openModal(`Congrats! ${correctWord.toUpperCase()} is the correct word`);
     initGame();
-}
+  }
 
 refreshBtn.addEventListener("click", initGame);
 checkBtn.addEventListener("click", checkWord);
