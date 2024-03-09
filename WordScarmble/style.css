@@ -14,6 +14,22 @@ body{
   background: linear-gradient(to right, #2f4290, #cfdbe5); 
 }
 
+.score-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.score-container p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.score {
+  font-weight: bold;
+  font-size: 20px;
+  color: #5372F0;
+}
+
 
 .container{
   width: 440px;
@@ -121,7 +137,7 @@ body{
   transform: scale(0.97);
 }
 .buttons .refresh-word{
-  background: #6C757D;
+  background: #747f8a;
 }
 .buttons .refresh-word:hover{
   background: #5f666d;
