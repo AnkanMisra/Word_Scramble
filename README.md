@@ -32,8 +32,8 @@ Welcome to Word Scramble, a fun and challenging word game where players unscramb
 ## Screenshots
 
 ![Screenshot 1](https://github.com/aditya-ghosh2992/demo/blob/main/photo%20readme/Screenshot%202024-03-09%20at%2012.06.18.png)
-<p align="center"> *Main Page* </p>
+<p align="center"> * Main Page* </p>
 
 ![Screenshot 2](https://github.com/aditya-ghosh2992/demo/blob/main/photo%20readme/Screenshot%202024-03-09%20at%2012.09.45.png)
-<p align="center"> *Win Popup Screen* </p>
+<p align="center"> * Win Popup Screen* </p>
 
