@@ -11,16 +11,16 @@ Welcome to Word Scramble, a fun and challenging word game where players unscramb
 
 ## How to Play👴
 
-1. **Start Screen:**
+1. ** Start Screen:**
    - Launch the game to access the main menu.
 
-2. **Gameplay:**🎮
+2. ** Gameplay:** 🎮
    - The timer will start as soon as you open the window
    - Unscramble the letters to form valid words.
    - Submit your answers and earn points.
    - Compete against the clock to achieve the highest score.
 
-3. **Scoring:**💯
+3. ** Scoring:**💯
    - Earn points for each correctly guessed word.
 
 ## Features🤙
