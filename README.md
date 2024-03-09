@@ -8,10 +8,6 @@ Welcome to Word Scramble, a fun and challenging word game where players unscramb
 - [How to Play](#how-to-play)
 - [Features](#features)
 - [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
-
-
 
 ## How to Play
 
@@ -36,8 +32,8 @@ Welcome to Word Scramble, a fun and challenging word game where players unscramb
 ## Screenshots
 
 ![Screenshot 1](https://github.com/aditya-ghosh2992/demo/blob/main/photo%20readme/Screenshot%202024-03-09%20at%2012.06.18.png)
-*Main Page*
+<p align="center"> *Main Page* </p>
 
 ![Screenshot 2](https://github.com/aditya-ghosh2992/demo/blob/main/photo%20readme/Screenshot%202024-03-09%20at%2012.09.45.png)
-*Win Popup Screen*
+<p align="center"> *Win Popup Screen* </p>
 
